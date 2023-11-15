@@ -1,0 +1,12 @@
+header {
+    @include flexItem(space-between, center, row);
+    box-sizing: border-box;
+    position: fixed;
+    background-color: $headerBg;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 20px;
+    box-shadow: 0 -8px 15px 8px $headerBoxShadow;
+    z-index: 100;
+}

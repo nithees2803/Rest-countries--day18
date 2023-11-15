@@ -1,0 +1,13 @@
+.filter__container {
+    max-width : 150px;
+    margin    : 50px 0;
+    box-shadow: 0 0 5px 1px $countryCardBoxShadow;
+    padding   : 15px 35px;
+    background-color: $filterBg;
+
+    select {
+        padding: 0 55px 0 0;
+        background-color: $filterBg;
+        border          : none;
+    }
+}

@@ -1,0 +1,10 @@
+.theme-color--switch {
+    @include flexItem(center, center, row);
+    cursor: pointer;
+
+    p {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 12px;
+    }
+}
